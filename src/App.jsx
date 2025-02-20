@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter, Routes , Route} from 'react-router-dom'
+import { BrowserRouter as Routes , Route} from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import About from './Components/About'
 import OurMenu from './Components/OurMenu'
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename='/Burger_deliveryApp_UI/'>
+      <BrowserRouter basename="/Burger_deliveryApp_UI/">
       <Scroll/>
       <Routes>
         <Route path='/' element={<Home/>}/>
