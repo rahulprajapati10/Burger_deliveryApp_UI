@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/Burger_deliveryApp_UI/'>
       <Scroll/>
       <Routes>
         <Route path='/' element={<Home/>}/>
